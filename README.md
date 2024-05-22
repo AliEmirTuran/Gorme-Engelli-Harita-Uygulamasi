@@ -12,7 +12,7 @@ Bu proje, Jetbrains tarafından piyasaya sürülen Kotlin yazılım dili ile gel
 ### Giriş Ekranı
 Projenin bu ekranında bulunan textare'ya yazılı olarak veya sesli olarak varış hedefi belirlenebilmektedir.
 
-![Ana Sayfa](https://github.com/AliEmirTuran/Lesson-Program-Project-with-Graph-Coloring/assets/89272211/976d78d1-832e-4355-b931-ed8a1631b0fd)
+![GİRİS EKRAN](https://github.com/AliEmirTuran/Gorme-Engelli-Harita-Uygulamasi/assets/89272211/b7ab7a09-1729-4e3c-a17a-728d51a6ac2a)
 
 ### Harita Ekranı
 Projemizin bu ekranında kullanıcıya bir önceki sayfada seçtiği konuma anlık bulunduğu konumdan bir güzergah oluşturmakta.Bu güzergaha giderken sesli ve görüntülü yönlendirme işlemleri yapmaktadır.Bu yönlendirmeyle birlikte kullanıcı istediği konuma en kısa yoldan varabilmektedir.
