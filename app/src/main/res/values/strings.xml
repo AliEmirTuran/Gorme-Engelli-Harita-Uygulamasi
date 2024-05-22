@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">görmeEngelliUygulama</string>
+
+    <string name="my_map_api_key">AIzaSyBHTSQkvdnAIf9MsYsyY-pv2EJblupVVhU</string>
+</resources>

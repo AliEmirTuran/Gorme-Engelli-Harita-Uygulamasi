@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eed69a"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/images"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="16dp" /> <!-- Resmin altından 16dp kadar kısaltmak için paddingBottom kullanıyoruz -->
+
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter location"
+        android:layout_centerHorizontal="true"
+        android:padding="12dp"
+        android:background="@xml/edittext_bg"
+        android:layout_marginTop="32dp"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/buttonNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLocation"
+        android:layout_alignParentEnd="true"
+        android:text="Navigate"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonVoiceMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNavigate"
+        android:layout_centerHorizontal="true"
+        android:text="Sesli Mesaj"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:drawableStart="@drawable/ic_microphone"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="onVoiceMessageButtonClick" />
+
+
+
+
+</RelativeLayout>
